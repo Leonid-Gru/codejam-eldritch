@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../assets/home.png);
+    color: #fff;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.ancient__deck {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.ancient__card {
+    width: 17%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ancient__card:hover {
+    border: 3px solid #ff0000;
+}
+
+.difficulty__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.difficulty__item {
+    margin-right: 20px;
+    border: 1px solid #fff;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 1.7;
+    border-radius: 10px;
+}
+
+.difficulty__item:hover {
+    border: none;
+    background-color: #4E5754;
+    border: 3px solid #ff0000;
+}
+
+.deck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shuffle__deck {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border:none;
+    font-size: 20px;
+}
+
+.shuffle__deck:hover {
+    color: #fff;
+    background-color: #4E5754;
+    border: 3px solid #ff0000;
+}
+
+.active {
+    border: 3px solid #ff0000;
+}
+
+.stages {
+    text-align: center;
+}
+
+.stages__list {
+    display: flex;
+    list-style: none;
+}
+
+.stages__list li{
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.greenCards {
+    background-color: green;
+}
+
+.brownCards {
+    background-color: brown;
+}
+
+.blueCards {
+    background-color: blue;
+}
