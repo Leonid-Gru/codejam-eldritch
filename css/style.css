@@ -25,7 +25,7 @@ body {
 }
 
 .ancient__card {
-    width: 17%;
+    width: 13%;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -39,8 +39,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     cursor: pointer;
+}
+
+.difficulty {
+    display: none;
 }
 
 .difficulty__item {
@@ -66,9 +70,9 @@ body {
     justify-content: center;
 }
 
-.shuffle__deck {
+.deck__shuffle {
     text-align: center;
-    display: flex;
+    display: none;
     align-items: center;
     padding: 10px 20px;
     cursor: pointer;
@@ -77,10 +81,21 @@ body {
     font-size: 20px;
 }
 
-.shuffle__deck:hover {
+.deck__shuffle:hover {
     color: #fff;
     background-color: #4E5754;
     border: 3px solid #ff0000;
+}
+
+.deck__cards {
+    display: none;
+}
+
+.deck__back {
+    width: 30%;
+    height: 30%;
+    margin-right: 30px;
+    cursor: pointer;
 }
 
 .active {
@@ -89,6 +104,7 @@ body {
 
 .stages {
     text-align: center;
+    margin-right: 50px;
 }
 
 .stages__list {
@@ -112,4 +128,9 @@ body {
 
 .blueCards {
     background-color: blue;
+}
+
+.deck__img {
+    width: 30%;
+    height: 30%;
 }
