@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Eldritch Horror</title>
+</head>
+
+<body>
+    <div class="ancient">
+        <h2 class="title">Choose your ancient</h2>
+        <div class="ancient__deck">
+            <img id="azathoth" src="assets/Ancients/Azathoth.png" alt="" class="ancient__card">
+            <img id="cthulhu" src="assets/Ancients/Cthulthu.png" alt="" class="ancient__card">
+            <img id="iogSothoth" src="assets/Ancients/IogSothoth.png" alt="" class="ancient__card">
+            <img id="shubNiggurath" src="assets/Ancients/ShubNiggurath.png" alt="" class="ancient__card">
+        </div>
+    </div>
+    <div class="difficulty">
+        <h2 class="title">Choose your difficulty</h2>
+        <div class="difficulty__list">
+            <div id="baby" class="difficulty__item">Baby</div>
+            <div id="easy" class="difficulty__item">Easy</div>
+            <div id="normal" class="difficulty__item">Normal</div>
+            <div id="hard" class="difficulty__item">Hard</div>
+            <div id="nightmare" class="difficulty__item">Nightmare</div>
+        </div>
+    </div>
+    <div class="deck">
+        <button class="deck__shuffle">Shuffle the deck</button>
+        <div class="deck__cards">
+            <div class="stages">
+                <div class="stages__title stages__title--first">FirstStage</div>
+                <ul id="firstStage" class="stages__list"></ul>
+                <div class="stages__title stages__title--second">SecondStage</div>
+                <ul id="secondStage" class="stages__list"></ul>
+                <div class="stages__title stages__title--third">ThirdStage</div>
+                <ul id="thirdStage" class="stages__list"></ul>
+            </div>
+            <img class="deck__back" src="assets/mythicCardBackground.png" alt="">
+        </div>
+    </div>
+
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
