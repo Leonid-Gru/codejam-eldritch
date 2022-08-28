@@ -54,7 +54,7 @@ cardsBack.addEventListener('click', () => {
     img.classList.add('deck__img');
     deckCards.append(img);
     if (deck.firstStage.length !== 0) {
-        img.src = `../assets/MythicCards/${deck.firstStage[0].match(/[a-z]+/g)[0]}/${deck.firstStage[0]}.png`;
+        img.src = `assets/MythicCards/${deck.firstStage[0].match(/[a-z]+/g)[0]}/${deck.firstStage[0]}.png`;
         if (deck.firstStage[0].includes('green')) {
             const firstStageGreen = document.querySelector('#firstStage .greenCards');
             firstStageGreen.textContent = firstStageGreen.textContent - 1;
@@ -69,7 +69,7 @@ cardsBack.addEventListener('click', () => {
     } else {
         stageTitleFirst.style.textDecoration = 'line-through';
         if (deck.secondStage.length !== 0) {
-            img.src = `../assets/MythicCards/${deck.secondStage[0].match(/[a-z]+/g)[0]}/${deck.secondStage[0]}.png`;
+            img.src = `assets/MythicCards/${deck.secondStage[0].match(/[a-z]+/g)[0]}/${deck.secondStage[0]}.png`;
             if (deck.secondStage[0].includes('green')) {
                 const secondStageGreen = document.querySelector('#secondStage .greenCards');
                 secondStageGreen.textContent = secondStageGreen.textContent - 1;
@@ -84,7 +84,7 @@ cardsBack.addEventListener('click', () => {
         } else {
             stageTitleSecond.style.textDecoration = 'line-through';
             if (deck.thirdStage.length !== 0) {
-                img.src = `../assets/MythicCards/${deck.thirdStage[0].match(/[a-z]+/g)[0]}/${deck.thirdStage[0]}.png`;
+                img.src = `assets/MythicCards/${deck.thirdStage[0].match(/[a-z]+/g)[0]}/${deck.thirdStage[0]}.png`;
                 if (deck.thirdStage[0].includes('green')) {
                     const thirdStageGreen = document.querySelector('#thirdStage .greenCards');
                     thirdStageGreen.textContent = thirdStageGreen.textContent - 1;
